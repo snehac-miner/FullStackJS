@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- connect external CSS -->
+  <link rel="stylesheet" href="./register.css">
+  <link rel="stylesheet" href="../global.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="navbar">
+    <img src="./assets/logo-2.webp" width="60px" alt="" class="logo">
+    <div class="menu">
+        <a href="../home/home.html">Home</a>
+        <a href="./register.html">Register</a>
+        <a href="../login/login.html">Login</a>
+        <a href="../contact/contact.html">Contact</a>
+        <a href="../catalogue/catalogue.html">Catalogue</a>
+    </div>
+</div>
+
+<div class = "container">
+  <h1> User registration </h1>
+
+  <!--form-->
+  <form class="form">
+          <!---username-->
+          <div class="form-control">
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Enter username">
+              <small>Error Message</small>
+          </div>
+          <!--email-->
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email">
+            <small>Error Message</small>
+        </div>
+          <!--password-->
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <small>Error Message</small>
+        </div>
+          <!-- repeat password-->
+        <div class="form-control">
+          <label for="password2">Repeat Password</label>
+          <input type="password" id="password2" placeholder="Enter password">
+          <small>Error Message</small>
+      </div>
+
+        <button type="submit">Register</button>
+  </form>
+</div>
+
+  <!--- add js files-->
+  <script src="./register.js"></script>
+
+</body>
+</html>

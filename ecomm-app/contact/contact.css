@@ -1,0 +1,19 @@
+/*navbar styles */
+.navbar{
+
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar .menu {
+    
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .menu a{
+    text-decoration: none;
+}
+
